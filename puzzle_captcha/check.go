@@ -2,7 +2,7 @@ package captcha
 
 import "errors"
 
-const slipOffset = 5.0
+const slipOffset = 10.0
 
 var (
 	ErrPostionErr = errors.New("postion error")
